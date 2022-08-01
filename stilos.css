@@ -1,0 +1,150 @@
+*{
+    background-color: aqua;
+    margin: 6;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+}
+
+.principal{
+    
+    
+    background-color: white;
+    width: 450px;
+    margin: auto;
+    background-color: white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 15%;
+    border-radius: 7px;
+    
+}
+H1
+{
+    text-align: center;
+    background-color: white;
+}
+.espacio{
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 100%;
+    height:40px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+p{
+    background-color: white;
+    margin: auto;
+}
+a{
+    background-color: white;
+    margin: auto;
+}
+
+.enviar{
+    height: 30px;
+    width: 50px;
+    background-color: white;
+    border-radius: 7px;
+    
+    
+}
+.enviar:active{
+    transform: scale(1.05);
+}
+div{
+    background-color: white;
+    margin-left: 350px;
+}
+
+
+/*inicia el registro */
+
+.registro{
+    
+    background-color: white;
+    width: 450px;
+    height: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 2%;
+    border-radius: 7px;
+    
+}
+.info{
+   border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 100%;
+    height:40px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    
+}
+.enviarr{
+    background-color: white;
+    border-radius:7px;
+    height: 30px;
+    margin-top: 25px;
+ 
+}
+.infos{
+   border-radius: 15px;
+    margin-bottom: 20px;
+    margin-right: 19px;
+    margin-left: 19px;
+    
+    background-color: white;
+    width: 40%;
+    height:40px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.enviarr:active{
+    transform: scale(1.05);
+}
+
+/*Página principal*/
+.principales{
+        
+background-color: white;
+  
+    width: 98%;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: auto;
+    background-color: white;
+    padding:  20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+.menuss{
+    text-decoration: none;
+ margin-left: 500px;
+    margin-top: 10px;
+    
+}
+.boton ul{
+   list-style-type: none;
+   text-align: end;
+    margin-top: 100px;
+    background-color: white;
+}
+.boton li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+}
+.boton li a {
+   padding: 2px 7px 2px 7px;
+   color: black;
+   background-color: white;
+   
+   text-decoration: none;
+}
+.boton li a:hover{
+   background-color:lightgray;
+   color: #ffffff;
