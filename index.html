@@ -3,24 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="stilos.css">
+    
     <title>Nombre de la página</title>
+    
+        
+   <style>
+    header{
+    width: 100%;
+     background: #4E94AB;
+}
+#menuss{
+    display: none;
+}
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+header label:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+    }
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu li a{
+    display: block;
+    padding: 17px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.menu li :hover{
+    background: rgba(0,0,0,0.3);
+}
+.menu li{
+border-right: 1px solid #fff;
+    
+}
+@media (max-width:768px) {
+    header label{
+        display:block;
+        
+    }
+    .menu{
+        position: absolute;
+        background: #4E94AB;
+        width: 70%;
+        margin-left: -80%;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li{
+        border-top: ipx solid #fff;
+    }
+    #menuss:checked ~ .menu{
+        margin: 0;
+    } 
+    </style>
+    
+    <style>
+        .arriba{
+            background-color: red;
+            
+        }
+        .logo{
+            margin-left: 600px;
+        }
+        
+        
+    </style>
+   
+    
+    
 </head>
 <body>
- 
-  <form action="" method="post" class="principales">
+<form action="" class="arriba">
+    <a href="login.html"><img class="logo" src="img/mala.jpg" alt=""></a>
     
-     <div class="boton">
-<ul>
-<li><a href="login.html">Inicio</a></li>
-<li><a href="crear.html">Registro</a></li>
-
-</ul>
+</form>
+ <header>
       
-   </div>
-    </form>
- 
+      <input type="checkbox" id="menuss">
+      <label for="menuss"><img src="img/btn-menu.png" alt="">
+      </label>
+      
+      <nav class="menu">
+          
+         
+          <ul>
+           
+             <li ><a href="login.html">Ingresar</a></li>
+              <li><a href="crear.html">Registro</a></li>
+              
+          </ul>
+          
+      </nav>
+       
+   </header>    
 
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui maiores voluptate nemo ratione deserunt culpa dolor libero, labore expedita eos adipisci temporibus, accusamus non minus neque eaque ea nulla et?</p>
 
 </body>
 </html>
